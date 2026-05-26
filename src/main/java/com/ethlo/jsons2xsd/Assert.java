@@ -25,22 +25,13 @@ package com.ethlo.jsons2xsd;
  * THE SOFTWARE.
  * #L%
  */
+public class Assert {
 
-public class Assert
-{
-	public static void isTrue(boolean expression, String message)
-	{
-		if (! expression)
-		{
-			throw new IllegalArgumentException(message);
-		}
-	}
-	
-	public static void notNull(Object obj, String message)
-	{
-		if (obj == null)
-		{
-			throw new IllegalArgumentException(message);
-		}
-	}
+    public static void isTrue(boolean expression, String message) {
+        throw new UnsupportedOperationException("STUB: not implemented");
+    }
+
+    public static void notNull(Object obj, String message) {
+        throw new UnsupportedOperationException("STUB: not implemented");
+    }
 }

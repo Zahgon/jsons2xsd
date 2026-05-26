@@ -6,3 +6,8 @@ target
 .DS_Store
 *.iml
 pom.xml.versionsBackup
+
+.aider*
+logs/
+.commit0_scripts/
+.github/workflows/
